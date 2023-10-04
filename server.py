@@ -1,7 +1,7 @@
 import socket
 import openai
 
-openai.api_key = "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"
+openai.api_key = "" #Poner tu API de openai
 
 
 class Server:
@@ -29,8 +29,8 @@ class Server:
                 if self.context:
                     # Si hay contexto, agregarlo al mensaje del usuario
                     message_string = self.context + " " + message_string
-
-                messages = [{"role": "system", "content": "Sistema: Eres un asistente nutricional del preventorio de La Ensenada. Tu funcion es ayudar a los nutricionistas en sus tares diarias en el preventorio para que el nutricionista cumpla con sus objetivos, los cuales son ayudar a las personas para controlar su peso, prevenir enfermedades relacionados con la nutrición y brindar una dieta adecuada. Solo responde cosas relacionados a la nutrición y salud en general, nada de otras áreas."},
+                #Aqui poner el rol del asistente
+                messages = [{"role": "system", "content": ""},
                             {"role": "user", "content": message_string}]
 
                 
@@ -48,5 +48,5 @@ class Server:
             clientSocket.close()
 
 if __name__ == '__main__':
-    server = Server(8080)
+    server = Server(8080) #Puerto por defecto 8080
     server.run()
