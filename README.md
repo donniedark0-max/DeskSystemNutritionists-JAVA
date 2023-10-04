@@ -30,6 +30,6 @@ Algunos estilos usados como el del login, registro, menú, botones, entre otros 
   ```python
   import openai
   ```
-* Puedes usar el codigo en el archivo `AsistantNutritionPy`, pero puede modificarlo a según tus necesidades
+* Puedes usar el codigo en el archivo `Server.py`, pero puede modificarlo a según tus necesidades
 
   **GRACIAS**
