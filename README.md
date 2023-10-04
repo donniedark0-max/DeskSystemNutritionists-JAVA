@@ -33,3 +33,4 @@ Algunos estilos usados como el del login, registro, menú, botones, entre otros 
 * Puedes usar el codigo en el archivo `Server.py`, pero puede modificarlo a según tus necesidades
 
   **GRACIAS**
+  ![screen](https://64.media.tumblr.com/21840cd9d6bcde50cd703520a9417ab3/9e6e71df7063ba5a-9c/s1280x1920/c93766011546bf82b6f15262dd5a5ee73d312a87.gifv)
